@@ -68,6 +68,7 @@ def init_user_data(session: Session, username: str):
         {"category": {"user": username, "name": "Festival & Event"}},
         {"category": {"user": username, "name": "Wellness"}},
         {"category": {"user": username, "name": "Accommodation"}},
+        {"category": {"user": username, "name": "Travel & Transport"}},
     ]
 
     for element in data:
